@@ -11,7 +11,7 @@ function App() {
   const [cooking, setcooking] = useState([])
 
   const heandelCooking = (cook) => {
-    setcooking(cook)
+    setcooking([...cooking, cook])
   }
 
   return (
