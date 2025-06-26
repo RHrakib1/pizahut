@@ -9,9 +9,15 @@ import Cooking from './Component/Cooking/Cooking'
 function App() {
 
   const [cooking, setcooking] = useState([])
+  const [preparing, setpreparing] = useState()
 
   const heandelCooking = (cook) => {
     setcooking([...cooking, cook])
+  }
+
+  const hendelPerparing = (id) => {
+    const remaining = cooking.filter(item => item.recipe_id !== id);
+    setcooking(remaining);
   }
 
   return (
@@ -22,7 +28,7 @@ function App() {
         <Text></Text>
         <div className='flex justify-between '>
           <Ordars heandelCooking={heandelCooking}></Ordars>
-          <Cooking cooking={cooking}></Cooking>
+          <Cooking hendelPerparing={hendelPerparing} cooking={cooking}></Cooking>
         </div>
       </main>
     </>
