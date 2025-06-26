@@ -1,0 +1,56 @@
+[
+  {
+    "recipe_id": "R001",
+    "recipe_name": "Grilled Chicken with Basil",
+    "recipe_image": "https://i.ibb.co/yFjTnnCT/top-view-sausage-pizza-with-tomato-red-bell-pepper-cheese-top-view.jpg",
+    "short_description": "Juicy grilled chicken infused with fresh basil aroma.",
+    "ingredients": ["550 g chicken", "120 ml soy sauce", "200 g basil leaf", "1 tbsp olive oil", "1 tsp garlic paste"],
+    "preparing_time": 30,
+    "calories": 320
+  },
+  {
+    "recipe_id": "R002",
+    "recipe_name": "Creamy Mushroom Pasta",
+    "recipe_image": "https://i.ibb.co/Xfx39jrs/top-view-chicken-pizza-with-yellow-cherry-tomatoes-bell-pepper-board.jpg",
+    "short_description": "Rich and creamy pasta tossed with sautéed mushrooms.",
+    "ingredients": ["400 g mushroom", "250 g pasta", "100 ml fresh cream", "1 tsp black pepper", "2 tbsp butter"],
+    "preparing_time": 25,
+    "calories": 450
+  },
+  {
+    "recipe_id": "R003",
+    "recipe_name": "Spicy Beef Curry",
+    "recipe_image": "https://i.ibb.co/xKxWjT0C/mixed-pizza-with-various-ingridients.jpg",
+    "short_description": "Hot and spicy beef curry full of traditional flavors.",
+    "ingredients": ["500 g beef", "2 onions", "100 ml oil", "3 tbsp curry powder", "2 tomatoes"],
+    "preparing_time": 45,
+    "calories": 520
+  },
+  {
+    "recipe_id": "R004",
+    "recipe_name": "Veggie Delight Pizza",
+    "recipe_image": "https://i.ibb.co/Pss8vHnY/top-view-two-italian-pizzas-with-meat-bell-peppers-olive-mushroom.jpg",
+    "short_description": "Colorful veggie pizza loaded with cheese and fresh toppings.",
+    "ingredients": ["1 pizza base", "100 g bell peppers", "50 g olives", "150 g cheese", "100 g mushrooms"],
+    "preparing_time": 20 ,
+    "calories": 380
+  },
+  {
+    "recipe_id": "R005",
+    "recipe_name": "Chicken Fried Rice",
+    "recipe_image": "https://i.ibb.co/FbgwCzn/chicken-fried-rice.jpg",
+    "short_description": "Classic fried rice with tender chicken and vegetables.",
+    "ingredients": ["300 g chicken", "250 g rice", "1 egg", "50 g carrots", "30 ml soy sauce"],
+    "preparing_time": 35 ,
+    "calories": 400 
+  },
+  {
+    "recipe_id": "R006",
+    "recipe_name": "Thai Green Curry",
+    "recipe_image": "https://i.ibb.co/yFjTnnCT/top-view-sausage-pizza-with-tomato-red-bell-pepper-cheese-top-view.jpg",
+    "short_description": "Fragrant Thai curry with coconut milk and herbs.",
+    "ingredients": ["200 g chicken", "150 ml coconut milk", "100 g green curry paste", "100 g bamboo shoots", "2 kaffir lime leaves"],
+    "preparing_time": 40,
+    "calories": 410 
+  }
+]
