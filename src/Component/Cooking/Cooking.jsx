@@ -21,7 +21,7 @@ export default function Cooking({ cooking, hendelPerparing }) {
                                 <td className=" px-4 py-2">{item.recipe_name}</td>
                                 <td className=" px-4 py-2">{item.calories}</td>
                                 <td className=" px-4 py-2">{item.preparing_time} </td>
-                                <td><button onClick={() => hendelPerparing(item.recipe_id)} className='btn rounded-full bg-green-400'>Preparing</button></td>
+                                <td><button onClick={() => hendelPerparing(item.recipe_id,item.calories,item.preparing_time)} className='btn rounded-full bg-green-400'>Preparing</button></td>
                             </tr>
                         ))
                     }
